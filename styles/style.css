@@ -2,3 +2,19 @@
     font-family: "Poppins", sans-serif;
 
 }
+
+.detail-btn {
+    background-color: none;
+    border: 1px solid #ddd;
+    font-weight: 400;
+    padding: 8px 32px;
+    border-radius: 4px;
+}
+
+.add-cart-btn {
+    background-color: rgb(7, 88, 193);
+    color: white;
+    font-weight: 400;
+    padding: 8px 32px;
+    border-radius: 4px;
+}

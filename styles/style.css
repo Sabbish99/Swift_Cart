@@ -3,6 +3,27 @@
 
 }
 
+#trending-now {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 20px;
+    /* align-items: stretch; */
+}
+
+.trending-img {
+
+    border-radius: 12px 12px 0px 0px;
+
+
+}
+
+.product-image {
+    height: 350px;
+    width: auto;
+    padding: 10px;
+}
+
 .detail-btn {
     background-color: none;
     border: 1px solid #ddd;

@@ -19,10 +19,10 @@ const trendingNow = () => {
             const div = document.createElement('div')
             div.classList.add('card')
             div.innerHTML = `
-           <div class="grid grid-flow-row">
-                <div class="border ">
-                    <div class="flex justify-center items-center">
-                        <img  src="${product.image}">
+           <div class="mb-20 trending-grid">
+                <div class="  shadow-lg rounded-xl max-h-screen ">
+                    <div class="flex justify-center items-center bg-gray-300 trending-img">
+                        <img class="product-image" src="${product.image}">
                     </div>
                     <div class="p-4">
          
@@ -34,11 +34,11 @@ const trendingNow = () => {
                         </div>
 
       
-                        <div class= "border p-2 mt-2">
+                        <div class= " p-2 mt-2">
                             <h4 class = "font-semibold my-2">${product.title}</h4>
                             <h3 class="font-bold text-lg">$${product.price}</h3>
                         </div>
-                        <div class="flex justify-between my-4">
+                        <div class="flex justify-between my-3">
                             <button class="detail-btn"><i class="fa-regular fa-eye"></i> Details</button>
                             <button class="add-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add</button>
                         </div>

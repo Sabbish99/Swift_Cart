@@ -56,5 +56,6 @@ const trendingNow = () => {
     }
 
 
+
 }
 trendingNow()
